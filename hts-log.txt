@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 03 Mar 2025 00:35:40 at https://html.sthemeit.com/logistcwr-demo/index-five.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://html.sthemeit.com/logistcwr-demo/index-five.html -O1 "C:\Users\dahur\Downloads\stri" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:37:12	Error: 	"Not Found" (404) at link https://html.sthemeit.com/logistcwr-demo/assets/css/owl.video.play.png (from https://html.sthemeit.com/logistcwr-demo/assets/css/owl.carousel.min.css)
+00:37:22	Error: 	"Not Found" (404) at link https://html.sthemeit.com/logistcwr-demo/assets/fonts/fa-duotone-900.woff2 (from https://html.sthemeit.com/logistcwr-demo/assets/css/font-awesome-pro.css)
+00:37:22	Error: 	"Not Found" (404) at link https://html.sthemeit.com/logistcwr-demo/assets/fonts/fa-duotone-900.ttf (from https://html.sthemeit.com/logistcwr-demo/assets/css/font-awesome-pro.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 42 seconds : 233 links scanned, 228 files written (19220748 bytes overall) [15504619 bytes received at 152006 bytes/sec], 5987481 bytes transferred using HTTP compression in 62 files, ratio 36%, 14.5 requests per connection
+(3 errors, 0 warnings, 0 messages)
