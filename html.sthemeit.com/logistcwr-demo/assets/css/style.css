@@ -463,7 +463,7 @@ Text Domain: Logistcwr
 /* Header Style Two */
 .st-header-menu-area.style2 {
   background: var(--st-project-bg);
-  padding: 33px 0;
+  /* padding: 33px 0; */
 }
 .st-header-menu-area.style2 .st__main__menu {
   left: 115px;
@@ -4707,3 +4707,80 @@ transition: .6s;
  font-size: 18px;
 }
 
+.breadcumbnew {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+    background-color: #E9F4DB;
+    background-image: url("../images/breadcumb/warehouse-manager.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.breadcumbnew .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.breadcumbnew .container {
+    z-index: 5;
+}
+
+.breadcumbnew__top__content {
+    padding-left: 40px;
+    z-index: 4;
+}
+
+.breadcumbnew__top__content h2 {
+    font-size: 65px;
+    font-weight: 600;
+    color: var(--st-theme-color-white);
+    margin: 48px;
+    z-index: 5;
+
+}
+
+.breadcumbnew__top__content h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--st-theme-color-white);
+    margin-bottom: 48px;
+    line-height: 1.5;
+}
+.service-cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+/* .service-write{
+    padding: 0px 50px;
+} */
+.service-write h2{
+    line-height: 1.5;
+    
+}
+/* .service-write p{
+    
+} */
+@media (max-width: 1199px) {
+    .service-cat{
+        display: block;
+        padding: 40px 12px;
+    }
+    .service-write{
+        padding: 0px 12px;
+    }
+    .service-write p{
+        font-size: 14px;
+        line-height: 28px;
+        
+    }
+}
